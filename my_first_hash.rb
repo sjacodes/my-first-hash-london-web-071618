@@ -23,7 +23,8 @@ def adding
                  }
   
   
-  shipping_manifest
+  shipping_manifest["muskets"] = 2
+  
   # add 2 muskets to the shipping_manifest hash below
 
 
@@ -35,3 +36,5 @@ def adding
   # return the shipping_manifest hash below
 
 end
+person["hometown"] = "Massena, NY"
+
